@@ -1,5 +1,5 @@
 import { IconButton } from "@material-ui/core";
-import { Mic, MicNone } from "@material-ui/icons";
+import { MicNone } from "@material-ui/icons";
 import React, { useState } from "react";
 import "./Chat.css";
 
