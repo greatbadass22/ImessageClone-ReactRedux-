@@ -29,7 +29,17 @@ function App() {
     });
   }, [dispatch]);
 
-  return <div className="app">{user ? <Imessage /> : <Login />}</div>;
+  return (
+    <div className="app">
+      {user ? (
+        <>
+          <Imessage />
+        </>
+      ) : (
+        <Login />
+      )}
+    </div>
+  );
 }
 
 export default App;
